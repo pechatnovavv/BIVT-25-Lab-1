@@ -1,4 +1,6 @@
-﻿namespace Lab1
+﻿using System.Buffers;
+
+namespace Lab1
 {
     public class White
     {
@@ -7,7 +9,7 @@
             bool answer = false;
 
             // code here
-
+            answer = d > 0;
             // end
 
             return answer;
@@ -17,7 +19,7 @@
             bool answer = false;
 
             // code here
-
+            Console.WriteLine(n);
             // end
 
             return answer;
